@@ -33,6 +33,7 @@ jobs:
                 coverage report
             - name: Django Testing
               run: |
+                cd ./app
                 python manage.py test
 
               
